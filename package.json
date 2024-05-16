@@ -23,4 +23,11 @@
     "eslint-plugin-react-refresh": "^0.4.6",
     "vite": "^5.2.0"
   }
+  
+}
+
+{
+  "name": "starter-project",
+  "homepage": "https://mateodengra.github.io/e-Comerce-Coderhouse/"
+  "version": "0.1.0",
 }
