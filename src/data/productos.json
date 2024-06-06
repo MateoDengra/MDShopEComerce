@@ -1,0 +1,151 @@
+[
+    {
+      "id": 1,
+      "nombre": "Camiseta Deportiva",
+      "precio": 19.99,
+      "imagen": "https://via.placeholder.com/150",
+      "descripcion": "Camiseta deportiva de alta calidad, ideal para entrenamientos y actividades al aire libre.",
+      "categoria":{
+        "id": "prendas-superiores"
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Pantalones de Yoga",
+      "precio": 29.99,
+      "imagen": "https://via.placeholder.com/150",
+      "descripcion": "Pantalones cómodos y flexibles, perfectos para yoga y pilates.",
+      "categoria":{
+        "id": "prendas-superiores"
+      }
+    },
+    { "id": 3,
+      "nombre": "Zapatillas de Running",
+      "precio": 49.99,
+      "imagen": "https://via.placeholder.com/150",
+      "descripcion": "Zapatillas ligeras y duraderas, diseñadas para corredores de todas las habilidades.",
+      "categoria":{
+        "id": "prendas-superiores"
+      }
+    },
+    {
+      "id": 4,
+      "nombre": "Sudadera con Capucha",
+      "precio": 39.99,
+      "imagen": "https://via.placeholder.com/150",
+      "descripcion": "Sudadera suave y abrigada con capucha ajustable, ideal para el clima frío.",
+      "categoria":{
+        "id": "prendas-superiores"
+      }
+    },
+    {"id": 5,
+      "nombre": "Guantes de Gimnasio",
+      "precio": 14.99,
+      "imagen": "https://via.placeholder.com/150",
+      "descripcion": "Guantes ergonómicos para proteger tus manos durante los entrenamientos.",
+      "categoria":{
+        "id": "prendas-superiores"
+      }
+    },
+    {
+      "id": 6,
+      "nombre": "Botella de Agua Reutilizable",
+      "precio": 12.99,
+      "imagen": "https://via.placeholder.com/150",
+      "descripcion": "Botella de agua ecológica y reutilizable, perfecta para mantenerte hidratado.",
+      "categoria":{
+        "id": "prendas-superiores"
+      }
+    },
+    {
+      "id": 7 ,
+      "nombre": "Gafas de Sol Deportivas",
+      "precio": 24.99,
+      "imagen": "https://via.placeholder.com/150",
+      "descripcion": "Gafas de sol con protección UV, ideales para actividades al aire libre.",
+      "categoria":{
+        "id": "prendas-inferiores"
+      }
+    },
+    {
+      "id": 8,
+      "nombre": "Mochila Deportiva",
+      "precio": 34.99,
+      "imagen": "https://via.placeholder.com/150",
+      "descripcion": "Mochila espaciosa y resistente, perfecta para llevar tu equipo deportivo.",
+      "categoria":{
+        "id": "prendas-inferiores"
+      }
+    },
+    {
+      "id": 9,
+      "nombre": "Reloj Deportivo",
+      "precio": 59.99,
+      "imagen": "https://via.placeholder.com/150",
+      "descripcion": "Reloj multifuncional con monitor de actividad y pulso.",
+      "categoria":{
+        "id": "prendas-inferiores"
+      }
+    },
+    {
+      "id": 10,
+      "nombre": "Cinturón de Hidratación",
+      "precio": 19.99,
+      "imagen": "https://via.placeholder.com/150",
+      "descripcion": "Cinturón ligero y ajustable con compartimentos para botellas de agua y accesorios.",
+      "categoria":{
+        "id": "prendas-inferiores"
+      }
+    },
+    {
+      "id": 11,
+      "nombre": "Rodilleras de Compresión",
+      "precio": 17.99,
+      "imagen": "https://via.placeholder.com/150",
+      "descripcion": "Rodilleras de compresión para soporte y protección durante el ejercicio.",
+      "categoria":{
+        "id": "prendas-calzado"
+      }
+    },
+    {
+      "id": 12,
+      "nombre": "Balón de Yoga",
+      "precio": 22.99,
+      "imagen": "https://via.placeholder.com/150",
+      "descripcion": "Balón de yoga anti-explosión, ideal para estiramientos y ejercicios de estabilidad.",
+      "categoria":{
+        "id": "prendas-calzado"
+      }
+    },
+    {
+      "id": 13,
+      "nombre": "Esterilla de Yoga",
+      "precio": 25.99,
+      "imagen": "https://via.placeholder.com/150",
+      "descripcion": "Esterilla antideslizante y cómoda, perfecta para yoga y pilates.",
+      "categoria":{
+        "id": "prendas-calzado"
+      }
+    },
+    {
+      "id": 14,
+      "nombre": "Auriculares Deportivos",
+      "precio": 39.99,
+      "imagen": "https://via.placeholder.com/150",
+      "descripcion": "Auriculares inalámbricos resistentes al sudor, con excelente calidad de sonido.",
+      "categoria":{
+        "id": "prendas-accesorios"
+      }
+    },
+    {
+      "id": 15,
+      "nombre": "Cuerda para Saltar",
+      "precio": 9.99,
+      "imagen": "https://via.placeholder.com/150",
+      "descripcion": "Cuerda para saltar ajustable, ideal para ejercicios de cardio y acondicionamiento físico.",
+      "categoria":{
+        "id": "prendas-accesorios"
+      }
+    }
+  ]
+  

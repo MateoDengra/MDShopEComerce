@@ -1,0 +1,16 @@
+[
+
+{
+    "nombre": "Prendas superiores",
+    "id": "prendas-superiores"},
+{
+    "nombre": "Prendas inferiores",
+    "id": "prendas-inferiores"},
+{
+    "nombre": "Calzado",
+    "id": "prendas-calzado"},
+{
+    "nombre": "Accesorios",
+    "id": "prendas-accesorios" }
+
+]

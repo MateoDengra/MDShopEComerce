@@ -1,17 +1,27 @@
 import React from 'react'
 import Logo from '../assets/icons/logo.jpg'
 import { CartWidget } from './CartWidget'
+import { Link, NavLink, useLocation } from 'react-router-dom'
+import categories  from '../data/categorias.json'
 export const NavBar = () => {
+  const location = useLocation();  
   return (
     <><header>
-          <img src={Logo} alt='logo' />
-          <nav>
-              <ul className='menu'>
-                  <li className='menu-items'><a href="#">Inicio</a></li>
-                  <li className='menu-items'><a href="#">Prendas superiores</a></li>
-                  <li className='menu-items'><a href="#">Prendas inferiores</a></li>
-                  <li className='menu-items'><a href="#">Accesorios</a></li>
-                  <li className='menu-items'><a href="#">Calzados</a></li>
+      <Link to="/"> <img src={Logo} alt='logo' /> </Link>
+          <nav className='Nav'>
+              <ul className='menu' >
+                  <li className='menu-items' > <Link to="/Productos" className="nav-link" activeclassname="active" >Productos</Link>
+                  </li>
+                  {
+                    categories.map((category) => {
+                    return (
+                      <li className='menu-items' key={category.id}> 
+                  <NavLink to={`/category/${category.id}`} activeclassname="active" className={"nav-link"}>{category.nombre}
+                  </NavLink>
+                  </li>
+                    )
+                    })
+                  }
               </ul>
           </nav>
           <CartWidget />
