@@ -1,40 +1,47 @@
 import { useContext, useState } from "react";
 import { CartContext } from "../context/CartContext";
 import { useForm } from "react-hook-form";
-import { collection, addDoc, Timestamp } from "firebase/firestore";
+import { collection, addDoc, Timestamp } from "firebase/firestore"; 
 import { db } from "../firebase/config";
 
 export const Endbuy = () => {
+  const { Cart, calcularTotal, vaciarCarrito } = useContext(CartContext);
+  const { register, handleSubmit } = useForm();
+  let [docId, setDocId] = useState("");
 
-    const { Cart, calcularTotal, vaciarCarrito} = useContext(CartContext);
-    const { register, handleSubmit } = useForm();
-    let [docId, setDocId] = useState("");
+  const comprar = (data) => {
+    console.log("Datos del comprador:", data); 
+    const total = calcularTotal().toFixed(2);
 
-    const comprar = (data) => {
-        const pedido = {
-            cliente: data,
-            productos: Cart,
-            total: calcularTotal(),
-            fecha: Timestamp.now()
-        }
-        
-        const pedidosRef = collection(db, "pedidos");
 
-        addDoc(pedidosRef, pedido)
-             .then((doc) => {
-                 setDocId(doc.id);
-                 vaciarCarrito();
-             })
-    }
+    const pedido = {
+      cliente: data,
+      productos: Cart,
+      total: calcularTotal(),
+      fecha: new Date().toISOString() 
+    };
 
-    if (docId) {
-         return (
-             <>
-                 <h1>Muchas gracias por tu compra</h1>
-                <p>Para hacer el seguimiento de tu pedido, el identificador es este: {docId}</p>
-             </>
-         )
-     }
+    const pedidos = JSON.parse(localStorage.getItem("pedidos")) || [];
+    const newId = `pedido-${pedidos.length + 1}`;
+    pedidos.push({ id: newId, ...pedido });
+    localStorage.setItem("pedidos", JSON.stringify(pedidos));
+  
+    console.log("Pedido realizado:", pedido);
+    setDocId("12345ABC"); 
+    vaciarCarrito();
+  };
+
+  if (docId) {
+    return (
+      <>
+      <div className="brief">
+      <h1>Muchas gracias por tu compra</h1>
+        <p>Para hacer el seguimiento de tu pedido, el identificador es este: {docId}</p>
+        <img src="/images/check.png" alt="" />
+      </div>
+              </>
+    );
+  }
 
   return (
     <div className="checkout">

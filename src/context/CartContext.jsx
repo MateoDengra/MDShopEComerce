@@ -23,7 +23,7 @@ export const CartProvider = ({ children }) => {
   };
 
   const calcularTotal = () => {
-    return Cart.reduce((acc, prod) => acc + prod.precio * prod.cantidad, 0).toFixed(2);
+    return Cart.reduce((acc, prod) => acc + prod.precio * prod.cantidad, 0);
   };
 
   const vaciarCarrito = () => {
