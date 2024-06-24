@@ -3,7 +3,9 @@ import Logo from '../assets/icons/logo.jpg'
 import { CartWidget } from './CartWidget'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import categories  from '../data/categorias.json'
-export const NavBar = () => {
+
+
+export const NavBar = (props) => {
   const location = useLocation();  
   return (
     <><header>
@@ -24,7 +26,7 @@ export const NavBar = () => {
                   }
               </ul>
           </nav>
-          <CartWidget />
+          <CartWidget Cart={props.Cart}/>
       </header>  
       </>
   )

@@ -1,7 +1,17 @@
 import React from 'react'
+import { Item } from './Item'
 
-export const ItemList = () => {
+export const ItemList = ( {productos} ) => {
+
   return (
-    <div>ItemList</div>
+    <div className="productos-grilla">
+        {
+          productos.length > 0 ?
+          productos.map(producto => {
+            return <Item key={producto.id} producto={producto} />
+          })
+          : <p>Cargando productos...</p>
+        }
+    </div>
   )
 }

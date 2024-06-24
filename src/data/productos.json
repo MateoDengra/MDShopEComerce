@@ -1,148 +1,148 @@
 [
     {
       "id": 1,
-      "nombre": "Camiseta Deportiva",
-      "precio": 19.99,
-      "imagen": "https://via.placeholder.com/150",
-      "descripcion": "Camiseta deportiva de alta calidad, ideal para entrenamientos y actividades al aire libre.",
+      "nombre": "Buzo Essentials Fear Of God (size L)",
+      "precio": 500.00,
+      "imagen": "/images/essentialsBuzoSuperior.jpg",
+      "descripcion": "Hoodie Fear of God linea Essentials con un corte recto oversize. Un estilo distinto y un color poco común.",
       "categoria":{
         "id": "prendas-superiores"
       }
     },
     {
       "id": 2,
-      "nombre": "Pantalones de Yoga",
-      "precio": 29.99,
-      "imagen": "https://via.placeholder.com/150",
-      "descripcion": "Pantalones cómodos y flexibles, perfectos para yoga y pilates.",
+      "nombre": "Buzo Lacoste Comics (size XL)",
+      "precio": 150.00,
+      "imagen": "/images/lacosteSuperior.jpg",
+      "descripcion": "Hoodie Lacoste Comic, algo diferente a lo que viene haciendo la marca del cocodrilo. Un color muy llamativo y un corte perfecto.",
       "categoria":{
         "id": "prendas-superiores"
       }
     },
     { "id": 3,
-      "nombre": "Zapatillas de Running",
-      "precio": 49.99,
-      "imagen": "https://via.placeholder.com/150",
-      "descripcion": "Zapatillas ligeras y duraderas, diseñadas para corredores de todas las habilidades.",
+      "nombre": "Buzo Nike x Stussy Crewneck (size XL)",
+      "precio": 250.00,
+      "imagen": "/images/nikeStussySuperior.jpg",
+      "descripcion": "Hoodie de Nike en colaboracion con la marca japonesa, una prenda muy exclusiva, por eso su precio.",
       "categoria":{
         "id": "prendas-superiores"
       }
     },
     {
       "id": 4,
-      "nombre": "Sudadera con Capucha",
+      "nombre": "Remera Nike oriental (Size L)",
       "precio": 39.99,
-      "imagen": "https://via.placeholder.com/150",
-      "descripcion": "Sudadera suave y abrigada con capucha ajustable, ideal para el clima frío.",
+      "imagen": "/images/nikeSuperior.jpg",
+      "descripcion": "Remera de Nike con dibujos orientales, es un básico que no falla.",
       "categoria":{
         "id": "prendas-superiores"
       }
     },
     {"id": 5,
-      "nombre": "Guantes de Gimnasio",
-      "precio": 14.99,
-      "imagen": "https://via.placeholder.com/150",
-      "descripcion": "Guantes ergonómicos para proteger tus manos durante los entrenamientos.",
+      "nombre": "Remera Bapesta (Size XXXL)",
+      "precio": 79.99,
+      "imagen": "/images/bapeSuperior.jpg",
+      "descripcion": "Remera de la marca china del mono. Debido a su origen, los talles son mucho mas chicos, por eso el talle tan grande.",
       "categoria":{
         "id": "prendas-superiores"
       }
     },
     {
       "id": 6,
-      "nombre": "Botella de Agua Reutilizable",
-      "precio": 12.99,
-      "imagen": "https://via.placeholder.com/150",
-      "descripcion": "Botella de agua ecológica y reutilizable, perfecta para mantenerte hidratado.",
+      "nombre": "Remera Fear of God Essentials (Size XL)",
+      "precio": 109.00,
+      "imagen": "/images/essentialsRemeSuperior.jpg",
+      "descripcion": "Remera de Fear of God, de la línea Essentials. Un corte oversize con un estilo fino.",
       "categoria":{
         "id": "prendas-superiores"
       }
     },
     {
       "id": 7 ,
-      "nombre": "Gafas de Sol Deportivas",
+      "nombre": "Jean Carpintero (N° 44)",
       "precio": 24.99,
-      "imagen": "https://via.placeholder.com/150",
-      "descripcion": "Gafas de sol con protección UV, ideales para actividades al aire libre.",
+      "imagen": "/images/carpinteroInferior.jpg",
+      "descripcion": "Jean de corte carpintero recto. Tiene 2 bolsillos a la altura de las rodillas.",
       "categoria":{
         "id": "prendas-inferiores"
       }
     },
     {
       "id": 8,
-      "nombre": "Mochila Deportiva",
+      "nombre": "Jogging Champion (Size L)",
       "precio": 34.99,
-      "imagen": "https://via.placeholder.com/150",
-      "descripcion": "Mochila espaciosa y resistente, perfecta para llevar tu equipo deportivo.",
+      "imagen": "/images/championInferior.jpg",
+      "descripcion": "Pantalón jogging de algodon de Chamion, muy comodo con un diseño sutil.",
       "categoria":{
         "id": "prendas-inferiores"
       }
     },
     {
       "id": 9,
-      "nombre": "Reloj Deportivo",
+      "nombre": "Jean verde (N° 42)",
       "precio": 59.99,
-      "imagen": "https://via.placeholder.com/150",
-      "descripcion": "Reloj multifuncional con monitor de actividad y pulso.",
+      "imagen": "/images/jeanInferior.jpg",
+      "descripcion": "Pantalón jean verde, corte holgado, color extravagante pero no difícil de combinar.",
       "categoria":{
         "id": "prendas-inferiores"
       }
     },
     {
       "id": 10,
-      "nombre": "Cinturón de Hidratación",
-      "precio": 19.99,
-      "imagen": "https://via.placeholder.com/150",
-      "descripcion": "Cinturón ligero y ajustable con compartimentos para botellas de agua y accesorios.",
+      "nombre": "Short Jordan DNA (Size L)",
+      "precio": 59.99,
+      "imagen": "/images/jordanInferior.jpg",
+      "descripcion": "Short de Nike Air Jordan, ideal para hacer deporte debido a su comodidad y sus materiales.",
       "categoria":{
         "id": "prendas-inferiores"
       }
     },
     {
       "id": 11,
-      "nombre": "Rodilleras de Compresión",
-      "precio": 17.99,
-      "imagen": "https://via.placeholder.com/150",
-      "descripcion": "Rodilleras de compresión para soporte y protección durante el ejercicio.",
+      "nombre": "Adidas ADI2000 (Size 10US)",
+      "precio": 180.00,
+      "imagen": "/images/adi2000Calzado.jpg",
+      "descripcion": "De lo mejor lanzado por la marca de las 3 tiras en los últimos años. Un modelo que se acopla a la perfección a la nueva moda de las zapatillas chunky, con unos colores básicos pero muy lindos.",
       "categoria":{
         "id": "prendas-calzado"
       }
     },
     {
       "id": 12,
-      "nombre": "Balón de Yoga",
-      "precio": 22.99,
-      "imagen": "https://via.placeholder.com/150",
-      "descripcion": "Balón de yoga anti-explosión, ideal para estiramientos y ejercicios de estabilidad.",
+      "nombre": "Nike Jordan Retro 5 Oregon Duck (Size 9,5)",
+      "precio": 320.00,
+      "imagen": "/images/jordan5Calzado.jpg",
+      "descripcion": "Un modelo inspirado en las originales lanzadas en el año 1990, con los colores respectivos en homenaje al equipo Universitario de Basquetball de la ciudad de Oregon, Portland.",
       "categoria":{
         "id": "prendas-calzado"
       }
     },
     {
       "id": 13,
-      "nombre": "Esterilla de Yoga",
-      "precio": 25.99,
-      "imagen": "https://via.placeholder.com/150",
-      "descripcion": "Esterilla antideslizante y cómoda, perfecta para yoga y pilates.",
+      "nombre": "Nike Jordan Legacy 312 Rookie of the Year (Size 10,5)",
+      "precio": 210.00,
+      "imagen": "/images/legacy312Calzado.jpg",
+      "descripcion": "Este modelo, hace referencia a la yuxtaposición de las Air Jordan 1 y las 3. Mucho mas cómodas que las Jordan 1, en un color que es muy combinable con muchas prendas.",
       "categoria":{
         "id": "prendas-calzado"
       }
     },
     {
       "id": 14,
-      "nombre": "Auriculares Deportivos",
+      "nombre": "Fitted Cap Mitchell and Ness Detroit Pistons (size 7 1/4)",
       "precio": 39.99,
-      "imagen": "https://via.placeholder.com/150",
-      "descripcion": "Auriculares inalámbricos resistentes al sudor, con excelente calidad de sonido.",
+      "imagen": "/images/capAccesorio2.jpg",
+      "descripcion": "Gorra cerrada de la marca de las colecciones vintage de las ligas americanas de deporte. En este caso, un homenaje a los Detroit Pistons y el anillo de campeonato ganado en el año 2004.",
       "categoria":{
         "id": "prendas-accesorios"
       }
     },
     {
       "id": 15,
-      "nombre": "Cuerda para Saltar",
-      "precio": 9.99,
-      "imagen": "https://via.placeholder.com/150",
-      "descripcion": "Cuerda para saltar ajustable, ideal para ejercicios de cardio y acondicionamiento físico.",
+      "nombre": "Fitted Cap Mitchell and Ness Philadelphia 76ers (size 7 3/8)",
+      "precio": 39.99,
+      "imagen": "/images/capAccesorio.jpg",
+      "descripcion": "Gorra cerrada en homenaje al antiguo logo del equipo de la NBA de Philadelphia.",
       "categoria":{
         "id": "prendas-accesorios"
       }

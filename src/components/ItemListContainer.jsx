@@ -1,6 +1,7 @@
 import React, { useState, useEffect,} from 'react';
 import { useParams } from 'react-router-dom';
 import data from '../data/productos.json';
+import categorias from '../data/categorias.json'
 import { Item } from './Item';
 
 export const ItemListContainer = () => {
@@ -16,13 +17,17 @@ const pedirProductos = () => {
   })
 }
 
+const shuffleArray = (array) => {
+  return array.sort(() => Math.random() - 0.5);
+};
+
 useEffect(() => {
   pedirProductos()
   .then((res) => {
     if (categoryId) {
-      setProductos(res.filter((prod)=> prod.categoria.id === categoryId))
+      setProductos(shuffleArray(res.filter((prod)=> prod.categoria.id === categoryId)))
     } else {
-      setProductos(res);
+      setProductos(shuffleArray(res));
     }
   });
 }, [categoryId]);
@@ -36,5 +41,5 @@ useEffect(() => {
     : "No hay productos"
 }  
   </div>
-  )
-}
+  );
+};
